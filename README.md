@@ -1,7 +1,7 @@
 # Proof of concept for css in js
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/assets/main.jpg" alt='css in js' width="200" margin="50">
+    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/assets/main.jpg" alt='css in js' width="400" margin="50">
 </p>
 
 
@@ -50,7 +50,7 @@
 ### Answers
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/screenshots/time.png" alt='time to compile' width="600">
+    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/screenshots/time.png" alt='time to compile' width="800">
 </p>
 
 
@@ -58,7 +58,7 @@
 
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/screenshots/size.png" alt='size' width="600">
+    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/screenshots/size.png" alt='size' width="800">
 </p>
 
 
