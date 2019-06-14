@@ -1,15 +1,11 @@
 # Proof of concept for css in js
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/assets/main.png" alt='css in js' width="200" margin="50">
+    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/assets/main.png" alt='css in js' width="200" margin="50">
 </p>
 
 
 ### Prerequisites
-
-<p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/screenshots/time.png" alt='project running' width="300">
-</p>
 
 - install node: <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a>
 
@@ -54,7 +50,7 @@
 ### Answers
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/screenshots/time.png" alt='time to compile' width="300">
+    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/screenshots/time.png" alt='time to compile' width="300">
 </p>
 
 
@@ -62,7 +58,7 @@
 
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/screenshots/size.png" alt='size' width="300">
+    <img src="https://raw.githubusercontent.com/nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis/master/screenshots/size.png" alt='size' width="300">
 </p>
 
 
