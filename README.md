@@ -31,21 +31,11 @@
     npm run compare
 ```
 
-### lint
-
-```sh
-    yarn lint
-```
-
 ### Questions to answer?
 
 - Which library produces the smallest bundle?
 
-- Which is easier to use?
-
-- Which is most supported?
-
-- What interface is used to interact with the css?
+- Which has the fastest compile time?
 
 ### Answers
 
