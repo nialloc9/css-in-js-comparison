@@ -14,9 +14,9 @@
 ```sh
     npm i -g yarn
 
-    git clone git@github.com:nialloc9/css-in-js-poc.git
+    git clone git@github.com:nialloc9/emotion-vs-styled-components-vs-styletron-bundle-analysis.git
 
-    cd css-in-js-poc
+    cd emotion-vs-styled-components-vs-styletron-bundle-analysis
 
     npm install
 ```
