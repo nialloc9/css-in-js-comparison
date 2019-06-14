@@ -41,7 +41,7 @@ var Button = Styled.a(_templateObject(), function (props) {
   return props.primary && css(_templateObject2());
 });
 var StyledComponents = (function () {
-  return React__default.createElement(React.Fragment, null, React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
+  return React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
     href: "https://github.com/styled-components/styled-components",
     target: "_blank",
     rel: "noopener",
@@ -49,143 +49,7 @@ var StyledComponents = (function () {
   }, "GitHub"), React__default.createElement(Button, {
     href: "/docs",
     prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")), React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
-    href: "https://github.com/styled-components/styled-components",
-    target: "_blank",
-    rel: "noopener",
-    primary: true
-  }, "GitHub"), React__default.createElement(Button, {
-    href: "/docs",
-    prefetch: true
-  }, "Documentation")));
+  }, "Documentation"));
 });
 
 module.exports = StyledComponents;

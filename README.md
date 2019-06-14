@@ -1,13 +1,15 @@
 # Proof of concept for css in js
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/assets/styledComponentsLogo.png" alt='styled components logo' width="200" margin="50">
-    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/assets/emotionLogo.png" alt='emotion logo' width="200" margin="50">
-    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/assets/styletronLogo.png" alt='styletron logo' width="200" margin="50">
+    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/assets/main.png" alt='css in js' width="200" margin="50">
 </p>
 
 
 ### Prerequisites
+
+<p float="left">
+    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/screenshots/time.png" alt='project running' width="300">
+</p>
 
 - install node: <a href="https://nodejs.org/en/download">https://nodejs.org/en/download</a>
 
@@ -51,4 +53,17 @@
 
 ### Answers
 
-- 
+<p float="left">
+    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/screenshots/time.png" alt='time to compile' width="300">
+</p>
+
+
+- Styletron is fastest to compile with styled-components taking the longest.
+
+
+<p float="left">
+    <img src="https://raw.githubusercontent.com/nialloc9/css-in-js-poc/master/screenshots/size.png" alt='size' width="300">
+</p>
+
+
+- Emotion is biggest to compile with styled-components the smallest.
