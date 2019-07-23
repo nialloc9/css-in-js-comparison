@@ -1,8 +1,9 @@
 import React, { Fragment } from "react"
 import Styled from "styled-components"
 
+// Styled Components
 const Button = Styled.a`
-  ${props => props.primary && css`
+  ${({ primary }) => primary && `
     background: white;
     color: palevioletred;
   `}

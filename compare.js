@@ -9,9 +9,11 @@ function getFilesizeInBytes(filename) {
 const sc = getFilesizeInBytes("./dist/StyledComponents.js");
 const st = getFilesizeInBytes("./dist/Styletron.js");
 const em = getFilesizeInBytes("./dist/Emotion.js");
+const jss = getFilesizeInBytes("./dist/Jss.js");
 
 console.group()
-    console.log("StyleComponents bundle size: " + sc + " bytes.")
-    console.log("Styletron bundle size: " + st + " bytes.")
-    console.log("Emotion bundle size: " + em + " bytes.")
+    console.log("styled-components bundle size: " + sc + " bytes.")
+    console.log("styletron bundle size: " + st + " bytes.")
+    console.log("emotion bundle size: " + em + " bytes.")
+    console.log("react-jss: " + jss + " bytes.")
 console.groupEnd()

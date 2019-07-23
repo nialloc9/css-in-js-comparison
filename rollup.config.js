@@ -58,5 +58,23 @@ export default [
       }),
       commonjs(),
     ]
+  },
+  {
+    input: 'src/Jss/index.js',
+    output: {
+      file: 'dist/Jss.js',
+      format: 'cjs'
+    },
+    external: [
+      'react', 
+      'react-proptypes'
+    ],
+    plugins: [
+      resolve(),
+      babel({
+        exclude: 'node_modules/**'
+      }),
+      commonjs(),
+    ]
   }
 ];

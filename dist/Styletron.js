@@ -151,7 +151,7 @@ function createShallowMergeReducer(style) {
 }
 function composeStatic(styletron, reducerContainer) {
   if (styletron.reducers.length === 0) {
-    const style = reducerContainer.reducer(styletron.getInitialStyle(), {});
+    const style = reducerContainer.reducer(styletron.getInitialStyle());
     const result = {
       reducers: styletron.reducers,
       base: styletron.base,
@@ -228,7 +228,7 @@ function createStyledElementComponent(styletron) {
       }
 
       return React.createElement(Element, _extends({}, elementProps, {
-        ref: elementProps.ref || ref || props.$ref
+        ref: ref || props.$ref
       }));
     });
   });
@@ -265,7 +265,9 @@ function resolveStyle(getInitialStyle$$1, reducers, props) {
   let i = reducers.length;
 
   while (i--) {
-    result = reducers[i].reducer(result, props);
+    // Cast to allow passing unused props param in case of static reducer
+    const reducer = reducers[i].reducer;
+    result = reducer(result, props);
   }
 
   return result;
@@ -315,8 +317,9 @@ function assign(target, source) {
   return target;
 }
 
-var Button = styled("a", function (props) {
-  return props.primary ? {
+var Button = styled("a", function (_ref) {
+  var primary = _ref.primary;
+  return primary ? {
     background: "white",
     color: "palevioletred"
   } : {};

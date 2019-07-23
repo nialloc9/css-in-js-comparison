@@ -18,16 +18,6 @@ function _taggedTemplateLiteral(strings, raw) {
   }));
 }
 
-function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n    background: white;\n    color: palevioletred;\n  "]);
-
-  _templateObject2 = function _templateObject2() {
-    return data;
-  };
-
-  return data;
-}
-
 function _templateObject() {
   var data = _taggedTemplateLiteral(["\n  ", "\n"]);
 
@@ -37,8 +27,10 @@ function _templateObject() {
 
   return data;
 }
-var Button = Styled.a(_templateObject(), function (props) {
-  return props.primary && css(_templateObject2());
+
+var Button = Styled.a(_templateObject(), function (_ref) {
+  var primary = _ref.primary;
+  return primary && "\n    background: white;\n    color: palevioletred;\n  ";
 });
 var StyledComponents = (function () {
   return React__default.createElement(React.Fragment, null, React__default.createElement(Button, {
